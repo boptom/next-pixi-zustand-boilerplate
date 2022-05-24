@@ -10,7 +10,11 @@ const GameComponent = dynamic(
 );
 
 const Play: NextPage = () => {
-  return <GameComponent />;
+  return (
+    <div className="flex items-center justify-center h-screen bg-gray-100">
+      <GameComponent />
+    </div>
+  );
 };
 
 export default Play;
